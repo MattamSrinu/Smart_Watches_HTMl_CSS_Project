@@ -1,0 +1,238 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image:url(/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: calibri;
+    height: 100vh;
+    
+}
+
+.navba{
+    align-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(59, 58, 58, 0);
+    position:sticky;
+}
+.navdiv{
+    display:flex;
+    justify-content:space-evenly;
+}
+li{
+    list-style:none;
+    display: inline-block;
+}
+li a{
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 35px;
+}
+.small{
+    padding-top: 5%;
+}
+.cont1{
+    margin-top: 35%;
+    display: flex;
+    justify-content:space-evenly
+
+}
+.cont2{
+    margin-top: 4%;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.cont21{
+    margin-top: 5%;
+}
+.cont22{
+    margin-top: 5%;
+    padding-bottom: 15%;
+}
+.buynow{
+    margin-top: 4%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont3{
+    display: flex;
+    gap: 5%;
+}
+.but2{
+    border-radius:30px; 
+    height: 45px; 
+    width: 190px; 
+    border-style: none; 
+    background-color: rgb(144, 249, 255);
+}
+.hcont1 {
+    display: grid;
+    margin-left: 14%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 1200px;
+    margin-top: 90px;
+}
+
+.b {
+    background-color: rgb(245, 255, 255);
+    padding-top:20px;
+    border-radius: 20px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(234, 234, 234, 0.911);
+}
+.cont4{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 700px;
+}
+.cont41{
+    border-style: solid;
+    justify-items: center;
+    width: 260px;
+    height:450px;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.cont411{
+    margin-top: 10%;
+}
+.cont412{
+    color: rgb(0, 0, 0); 
+    margin-top:20%; 
+    font-size: 25px;
+    height: 50px;
+}
+.butcont412{
+    height: 40px;
+    width: 170px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color: aqua;
+}
+.cont5{
+    display: grid;
+    margin-left: 14%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 1200px;
+    margin-top: 90px;
+}
+.cont51{
+    border-style: solid;
+    height: 200px;
+    padding-top: 30px;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 80px 20px;
+    background-color: #f9f9ff;
+    text-align: center;
+}
+.faq h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.faq p {
+    color: #555;
+    margin-bottom: 40px;
+}
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
+.faq-question {
+    width: 100%;
+    background: linear-gradient(90deg, #0047ff, #00eaff);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: left;
+}
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #0b0c15;
+    color: #fff;
+    padding: 60px 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-about, .footer-newsletter, .footer-follow {
+    flex: 1 1 300px;
+    margin: 20px;
+}
+.footer h3 {
+    margin-bottom: 20px;
+}
+.footer p {
+    color: #bbb;
+}
+.footer-newsletter form {
+    display: flex;
+}
+.footer-newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+.footer-newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(90deg, #0047ff, #00eaff);
+    color: white;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+.footer-follow .social-icons i {
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.footer-follow .social-icons i:hover {
+    color: #00eaff;
+}
+
